@@ -1,3 +1,4 @@
+frontend: ts, vite, redux, mui. server: js, express. 
 
 ### Уровень сложности: Средний (для учебного проекта)
 - **Фронтенд (TS + Vite + Redux + MUI)**: 6/10

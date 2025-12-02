@@ -1,0 +1,89 @@
+# ==================== ОС и редакторы ====================
+.DS_Store
+thumbs.db
+*.swp
+*~
+~*
+*.sublime-*
+.idea/
+.vscode/
+*.code-workspace
+
+# ==================== Зависимости ====================
+# Игнорируем node_modules В ЛЮБОЙ папке проекта
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.yarn/
+.yarnrc.yml
+
+# ==================== Переменные окружения ====================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env.*.local
+
+# ==================== Билды и артефакты ====================
+# React/Vite сборка
+dist/
+build/
+.out/
+.next/
+.nuxt/
+
+# Server сборки
+coverage/
+.nyc_output/
+
+# ==================== Логи ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# ==================== БД и временные файлы ====================
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.pid
+*.seed
+*.sock
+
+# ==================== Системные файлы ====================
+*.pid
+*.seed
+*.pid.lock
+*.tsbuildinfo
+
+# ==================== OS специфичные ====================
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# ==================== Дополнительно ====================
+# Docker
+docker-compose.override.yml
+
+# IDE
+.idea/
+*.swp
+*.swo
