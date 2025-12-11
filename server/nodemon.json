@@ -1,0 +1,15 @@
+{
+    "watch": ["server"],
+    "ext": "js,json",
+    "ignore": ["node_modules", ".git", "*.log"],
+    "exec": "node app.js",
+    "events": {
+      "restart": "echo '🔄 Сервер перезапускается...'",
+      "crash": "echo '💥 Сервер упал!'",
+      "exit": "echo '👋 Сервер остановлен'",
+      "start": "echo '🚀 Сервер запускается...'"
+    },
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }
